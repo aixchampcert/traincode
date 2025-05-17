@@ -1,3 +1,9 @@
 ---
 - name: Service check status
   hosts: localhost
+  tasks:
+  -name:
+    service:
+      name: sshd
+      state: enabled
+      status: started
