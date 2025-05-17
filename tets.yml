@@ -7,3 +7,4 @@
       name: sshd
       state: enabled
       status: started
+      loop:
