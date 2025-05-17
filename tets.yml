@@ -8,3 +8,4 @@
       state: enabled
       status: started
       loop:
+      when: os_family_version == 7.3
